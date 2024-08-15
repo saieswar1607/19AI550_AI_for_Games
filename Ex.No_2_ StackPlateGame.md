@@ -1,6 +1,5 @@
 # Ex.No: 2 Implementation of Stack Plate game using Queue 
 ### DATE:                                                                            
-#### REGISTER NUMBER : 
 ### AIM: 
 To write a python program to simulate the process of stacking plates.
 ### Algorithm:
@@ -11,6 +10,10 @@ To write a python program to simulate the process of stacking plates.
 5. Display the plate details.
 6. Create an interactive menu and display it.
 ### Program:
+```
+Developed By: Sai Eswar Kandukuri
+Reg.No: 212221240020
+```
 ```
 import pygame
 import sys
