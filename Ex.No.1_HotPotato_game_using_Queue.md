@@ -1,6 +1,5 @@
 # Ex.No: 1  Implementation of HotPotato game using Queue 
 ### DATE:                                                                            
-#### REGISTER NUMBER : 
 ### AIM: 
 To write a python program to simulate the process of passing an item among players and eliminating players based on the given rules until a single winner is determined.
 ### Algorithm:
@@ -10,6 +9,10 @@ To write a python program to simulate the process of passing an item among playe
 4. Eliminate the Holder: After the set number of passes, remove the person who holds the potato (dequeue the front of the queue).
 5. Repeat: Continue the process until only one person remains in the queue.
 ### Program:
+```
+Developed By: Sai Eswar Kandukuri
+Reg.No: 212221240020
+```
 ```
 import pygame
 import sys
