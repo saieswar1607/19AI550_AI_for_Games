@@ -16,6 +16,10 @@ To write a python program to simulate the snake game using steering behaviors
 11.  Stop the program
  ### Program:
 ```
+Developed by: Sai Eswar Kandukuri
+Reg.No: 212221240020
+```
+```
 import pygame
 import sys
 import random
