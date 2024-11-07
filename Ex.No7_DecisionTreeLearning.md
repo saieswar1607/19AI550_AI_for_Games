@@ -1,21 +1,21 @@
 # Ex.No: 7 Implementation of Decision Tree Learning 
 ### DATE:
 ### REGISTER NUMBER : 212221240020.
-# AIM:
+### AIM:
 Design a decision tree for following data. 
 1 Healthy, In Cover, With Ammo -> Attack
 2.Hurt, In Cover, With Ammo -> Attack
 3.Healthy, In Cover, Empty -> Defend
 4.Hurt, In Cover, Empty -> Defend
 5.Hurt, Exposed, With Ammo -> Defend
-# Algorithm:
+### Algorithm:
 1. Start the program
 2. import the necessary packages 
 3. Design a training data and test data 
 4. Create a decision tree classifier model
 5. Output the predictions 
 6. Visualize the decision tree 
-# Program:
+### Program:
 ```
 from sklearn.tree import DecisionTreeClassifier
 from sklearn import tree
@@ -68,11 +68,11 @@ plt.figure(figsize=(10, 6))
 tree.plot_tree(clf, feature_names=['Health', 'Cover', 'Ammo', 'Exposed'], class_names=['Defend', 'Attack'], filled=True)
 plt.show()
 ```
-# Output:
+### Output:
 ![Screenshot 2024-11-07 112109](https://github.com/user-attachments/assets/23827bb0-ca09-4e50-a27c-e8abc44c3802)
 ![Screenshot 2024-11-07 112026](https://github.com/user-attachments/assets/dc724103-f59e-4245-bf93-3029b42f490e)
 
 
 
-# Result:
+### Result:
 Thus the optimum value of max player was found using minimax search.
